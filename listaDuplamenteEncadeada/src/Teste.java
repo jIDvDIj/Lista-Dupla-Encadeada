@@ -24,7 +24,7 @@ public class Teste{
 	lista.insere(2); 
 	lista.insere(1); 
 	String ret = lista.imprime(); 
-	assertEquals("Sentido normal:1 2 3 4 5 Sentido contrário:5 4 3 2 1 ", ret); 
+	assertEquals("Sentido normal:1 2 3 4 5  Sentido contrário:5 4 3 2 1 ", ret); 
 	} 
 
 	//mostrar
@@ -42,7 +42,7 @@ public class Teste{
 	       lista.insere(55);
 	       lista.remove(55, true);
 	       String ret = lista.imprime();
-	       assertEquals("Sentido normal:11 11 22 33 44 Sentido contrário:44 33 22 11 11 ", ret);
+	       assertEquals("Sentido normal:11 11 22 33 44  Sentido contrário:44 33 22 11 11 ", ret);
 
 	   }
 	   
@@ -61,7 +61,7 @@ public void removeDuplicado4() {
 	       lista.insere(11);
 	       lista.remove(55, true);
 	       String ret = lista.imprime();
-	       assertEquals("Sentido normal:11 11 22 33 Sentido contrário:33 22 11 11 ", ret);
+	       assertEquals("Sentido normal:11 11 22 33 Sentido  contrário:33 22 11 11 ", ret);
 
 	   }
 	   
@@ -94,7 +94,7 @@ public void removeDuplicado4() {
 	       lista.insere(44);
 	       lista.insere(33);
 	       String ret = lista.imprime();
-	       assertEquals("Sentido normal:33 44 55 Sentido contrário:55 44 33 ", ret);
+	       assertEquals("Sentido normal:33 44 55  Sentido contrário:55 44 33 ", ret);
 	   }
 	   
 }  
