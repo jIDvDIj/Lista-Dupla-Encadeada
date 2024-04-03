@@ -26,7 +26,7 @@ public class Main {
 		System.out.println("Depois:");
 		System.out.print(lista.imprime());
 		
-				System.out.println("\n\n\nremoção do valor 1 repetido 4 vezes no inicio:");
+				System.out.println("\n\n\nremoção do valor 0:");
 				System.out.println("Antes:");
 				System.out.print(lista.imprime());
 				lista.remove(0,false);
